@@ -9,5 +9,6 @@ export const timerTrigger: AzureFunction = async function (context: Context, myT
     }
     context.log('Timer trigger function ran! jj', timeStamp);   
 };
+export const  myTimer = timerTrigger
 
 export default timerTrigger;
